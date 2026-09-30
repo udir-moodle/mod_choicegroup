@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/mod_choicegroup",
+  "description": "Group choice — Composer/Packagist mirror of the Moodle plugin mod_choicegroup, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-mod",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/mod_choicegroup",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.3.* || 4.4.* || 4.5.* || 5.0.* || 5.1.*"
+  },
+  "extra": {
+    "installer-name": "choicegroup",
+    "moodle-composer": {
+      "component": "mod_choicegroup"
+    }
+  }
+}
